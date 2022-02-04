@@ -13,16 +13,12 @@
     <header class="header"><h1>Generador de Hiraganas ひらがな</h1></header>
     
     <main class="main">
-        <div class="main__container-caracteres" id="container__caracteres">
-            <!-- <div class="letter1 letra" id="letter">ㅤ</div>
-            <div class="letter2 letra" id="letter">ㅤ</div>
-            <div class="letter3 letra" id="letter">ㅤ</div>
-            <div class="letter4 letra" id="letter">ㅤ</div>
-            <div class="letter5 letra">ㅤ</div>
-            <div class="letter6 letra">ㅤ</div>
-            <div class="letter7 letra">ㅤ</div> -->
+        <div class="main--container">
+            <div class="main__container-caracteres" id="container__caracteres"></div>
+            <div class="main__container-traduction" id="container__caracteres-romaji">
+            </div>
         </div>
-
+        
         <div class="main__container-selector">
             <button type="button" class="btn btn-dark" id="generator"  >Generar</button>
             <select id="n_caracter" class="form-select" name="n_caracter">
@@ -34,6 +30,7 @@
                 <option value="6">6</option>
                 <option value="7">7</option>
             </select>
+            <button type="button" class="btn btn-danger button-show" id="mostrar">Mostrar</button>
         </div>
         
     </main>
